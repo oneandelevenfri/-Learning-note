@@ -1,0 +1,9 @@
+1* functions
+注意缩进 function name + brackets parameters
+def say_hi(name):
+    print("Hello User "+name)
+
+say_hi("mike")
+return
+
+2*
