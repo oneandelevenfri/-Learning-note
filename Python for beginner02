@@ -30,8 +30,22 @@ def max_num(num1, num2, num3):
         return num2
     else:
         return num3
+*字符串是否相等
+def e_pro(num1, num2):
+    if num1 == num2:
+        return "yes"
+    else:
+        return "no"
+
+
+a1 = input()
+a2 = input()
+
+print(e_pro(a1, a2))
+
     
     
 print(max_num(3, 4, 5))
 
- 
+4*输入数字
+
