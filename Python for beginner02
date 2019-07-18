@@ -6,4 +6,5 @@ def say_hi(name):
 say_hi("mike")
 return
 
-2*
+2*if statement
+
