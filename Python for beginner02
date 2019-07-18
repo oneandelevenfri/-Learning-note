@@ -7,4 +7,31 @@ say_hi("mike")
 return
 
 2*if statement
+is_male = True
+is_tall = False
+if is_male and is_tall:
+    print("you are a male and tall")
+elif is_male and not is_tall:
+    print("you are a male but not tall")
+elif not is_male and is_tall:
+    print("you are not a male but tall")
+else:
+    print("you are neither a male or tall")
+    
+3*comparasion
+字符间隙有空格
+tab和blank space不能混用
+函数下空两行
+最后一行回车
+def max_num(num1, num2, num3): 
+    if num1 >= num2 and num1 >= num3:
+        return num1
+    elif num2 >= num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
+    
+    
+print(max_num(3, 4, 5))
 
+ 
