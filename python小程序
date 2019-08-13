@@ -1,4 +1,4 @@
-*01 
+*01 基础小程序
 total=0;
 for i in range(1,5):
     for j in range(1,5):
@@ -7,4 +7,19 @@ for i in range(1,5):
                 print(i,j,k)
                 total+=1
 
-print(total
+print(total)
+
+*02 改变字体颜色
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+print(bcolors.HEADER + "警告的颜色字体" )
+
+*03
+
