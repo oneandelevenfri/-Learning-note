@@ -1,15 +1,15 @@
-1*
+1*---------------------------------------------------------
 软件的安装 
 hello world
 
-2* a shape
+2* a shape-----------------------------------------------------------
 一个三角形
 print("   /|")
 print("  / |")
 print(" /  |")
 print("/___|")
  
-3* variable
+3* variable-------------------------------------------------------------------
 character_name = "fanjingjing"
 #character_year = str(23)
 character_year="23"
@@ -18,7 +18,7 @@ print(" he "+character_year+" old")
 print(" name john")
 print(" being 35")
 
-4* Strings
+4* Strings----------------------------------------------------------------------
  换行                        
   print(" name\njohn")  
   CON：  
@@ -39,7 +39,7 @@ print(" being 35")
   print(phrase.index("G"))#0
   print(phrase.replace("Giraffe","Elephant"))#Elephant Academy
   
- 5*numbers
+ 5*numbers-----------------------------------------------------------------------------
  print(2.0987)
  print(10%2)
  my_num = 5
@@ -53,23 +53,23 @@ print(" being 35")
   print(ceil(3.4))   4
   sqrt()
   
-6* input
+6* input--------------------------------------------------------------------------------
 name = input("Enter your name: ")
 print("Hello "+name)
 
 7* basic calculator
------------------------------------
+-----------------------------------------------------------------------------------
 num1 = input("Enter a number: ")
 num2 = input("Enter another number: ")
 result = num1 + num2
 print(result)  
-------------------------------------
+----------------------------------------------------------------------------------
 默认得到字符串
 转换
 |a| int()
 result = int(num1) + int(num2)
 
-8* lists
+8* lists--------------------------------------------------------------------------
 friends = ["Kevin", "karen", "Jim","Oscar","Toby"]
               0       -1
 print(friends[-1])
@@ -84,3 +84,11 @@ pop()默认去掉最后一个
 index(element) 
 count(ele) 数数
 sort() reverse()
+-------------------------------------------------------------------------------------
+#for i in range(100,1000):
+s='1   2  3'
+  -3  -2  -1
+print(int(s[-1])) 
+print(int(s[-2]))
+print(int(s[-3]))
+-------------------------------
