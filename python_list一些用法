@@ -1,0 +1,10 @@
+a=['one','two','three','four']
+
+print(a[::-1])----['four', 'three', 'two', 'one']
+print(a[::1])----['one', 'two', 'three', 'four']
+print(a[::2])----['one', 'three']
+print(a[::-2])----['four', 'two']
+print(a[:-2])----['one', 'two'] 从-2坐标开始的前面
+print(a[:-1])----['one', 'two', 'three']  从-2坐标开始的前面
+
+
